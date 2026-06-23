@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method ="post">
+
+        <fieldset>
+            <legend>Contact Form</legend>
+            <table>
+                <tr>
+                    <td><label for ="First name">First name:</label></td>
+                    <td><input type="text" id="first name" name="first name" placeholder="Enter first name" required></td>
+
+                </tr>
+                <tr>
+                    <td><label for="Last name">Last name:</label></td>
+                    <td><input type="text" id="Last name" name="Last name" placeholder="Enter last name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender"> Gender: </label></td>
+                    <td>
+                        <input type ="radio" name="gender" value="male">male
+                        <input type ="radio" name="gender" value="female">female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email:</label>
+                    <td><input type="text" id="Email" name="Email" placeholder="Enter email" required></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Services</legend>
+            <table>
+                 <input type="checkbox" value="web development">Web development
+                 <input type="checkbox" value="AI/ML">AI/ML 
+                 <input type="checkbox" value="Backend">Backend 
+
+            </table>
+
+        </fieldset>
+
+        <fieldset>
+                    <legend>Resean of Contact:</legend>
+                    <table>
+                        <tr>
+                            <td><lebel for="Reason of contact">Reason: </lebel></td>
+                            <td>
+                                <select id="Reason of contact" name="Reason">
+                                <option>Job</option>
+                                <option>Projects</option>
+                                <option>Thesis</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+
+            <fieldset>
+                <legend>Book Slot</legend>
+                <table>
+                    <tr>
+                <td>
+                <input type="date" id="date" name="date">
+            </td>
+            </tr>
+             </table>
+            </fieldset>
+
+            <table>
+                <tr>
+                <td>
+                    <a href="education.html">
+                 <button type="button">Submit</button>
+                 </a>
+                </td>
+                 <td>
+               <button type="button">Reset</button>
+               </td>
+               </tr>
+            </table>
+
+
+    </form>
+</body>
+</html>

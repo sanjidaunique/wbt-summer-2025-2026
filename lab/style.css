@@ -1,0 +1,6 @@
+.A{
+    color:red;
+}
+table td:first-child{
+    text-align: right;
+}
