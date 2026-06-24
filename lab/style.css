@@ -1,6 +1,11 @@
-.A{
-    color:red;
+.A {
+    color: red;
 }
-table td:first-child{
+
+table td:first-child {
     text-align: right;
+}
+
+span {
+    color: red;
 }
